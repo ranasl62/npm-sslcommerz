@@ -1,0 +1,25 @@
+{
+  "name": "SSL-Commarz-NPM-Package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranasl62/SSL-Commarz-NPM-Package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranasl62/SSL-Commarz-NPM-Package/issues"
+  },
+  "homepage": "https://github.com/ranasl62/SSL-Commarz-NPM-Package#readme",
+  "description": "",
+  "dependencies": {
+    "form-data": "^2.5.0",
+    "node-fetch": "^2.6.0",
+    "requirejs": "^2.3.6"
+  }
+}
