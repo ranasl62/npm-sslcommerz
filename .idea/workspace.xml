@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0081bcb7-b9b7-469a-8d20-f1e59d0f6a3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicSslCommerzPayment.js" beforeDir="false" afterPath="$PROJECT_DIR$/PublicSslCommerzPayment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="0081bcb7-b9b7-469a-8d20-f1e59d0f6a3b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -190,12 +185,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563768422175</updated>
       <workItem from="1563768424641" duration="3058000" />
-      <workItem from="1563771496939" duration="20417000" />
+      <workItem from="1563771496939" duration="20762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23475000" />
+    <option name="totallyTimeSpent" value="23820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,13 +202,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.091008775" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.68311405" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
