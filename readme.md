@@ -1,6 +1,8 @@
 SSLCommerzPayment this is a Class where you pass all require data as json 
 like below :
 
+
+
 let test = new SSLCommerzPayment({
     store_id: 'testbox',
     store_passwd: 'qwerty',
@@ -37,6 +39,8 @@ let test = new SSLCommerzPayment({
     value_c: 'ref003_C',
     value_d: 'ref004_D'
 }, false);
+
+
 
 
 
