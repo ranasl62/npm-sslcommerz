@@ -5,7 +5,7 @@ class SslCommerzPayment {
     constructor(data, live) {
         this.data = data;
         this.direct_api_url = !live ? "https://sandbox.sslcommerz.com/gwprocess/v4/api.php" : "https://securepay.sslcommerz.com/gwprocess/v4/api.php";
-        console.log(this.data);
+        // console.log(this.data);
         return this.sslCommarzCall();
     }
 

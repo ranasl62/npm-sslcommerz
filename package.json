@@ -1,6 +1,6 @@
 {
-  "name": "SSL-Commarz-NPM-Package",
-  "version": "1.0.0",
+  "name": "sslcommerz",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/ranasl62/SSL-Commarz-NPM-Package.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Md. Rana Hossain",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ranasl62/SSL-Commarz-NPM-Package/issues"
