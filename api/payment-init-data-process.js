@@ -1,4 +1,4 @@
-var FormData = require('form-data');
+const FormData = require('form-data');
 export const paymentInitDataProcess = (data) => {
     let postData = {};
     /*  Integration Required Parameters */
@@ -82,7 +82,7 @@ export const paymentInitDataProcess = (data) => {
     postData['value_c'] = data.value_c;
     postData['value_d'] = data.value_d;
 
-    let fdata = new FormData();
+    const fdata = new FormData();
     for (const a in postData) {
         fdata.append(a, postData[a] ? postData[a] : '');
     }

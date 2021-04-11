@@ -1,4 +1,4 @@
-import {loadEasyCheckout} from "./ui";
+const ui = require("./ui");
 
 const PaymentController = require("./api/payment-controller.js");
 
@@ -7,7 +7,7 @@ class SSLCommerzPayment extends PaymentController {
         super(store_id, store_password, live);
     }
 
-    loadEasyCheckout = loadEasyCheckout;
+    loadEasyCheckout = ui.loadEasyCheckout;
 }
 
 module.exports = SSLCommerzPayment;
