@@ -1,11 +1,13 @@
-const SSLCzData = require("./SSLCzData");
-const PublicSslCommerzPayment = require("./PublicSslCommerzPayment");
+import {loadEasyCheckout} from "./ui";
 
-class SSLCommerzPayment extends PublicSslCommerzPayment {
-    constructor(data, live) {
-        const newdata = new SSLCzData(data);
-        super(newdata.getPaymentArray(), live);
+const PaymentController = require("./api/payment-controller.js");
+
+class SSLCommerzPayment extends PaymentController {
+    constructor(store_id, store_password, live = false) {
+        super(store_id, store_password, live);
     }
+
+    loadEasyCheckout = loadEasyCheckout;
 }
 
-module.exports=SSLCommerzPayment;
+module.exports = SSLCommerzPayment;
