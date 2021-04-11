@@ -1,5 +1,5 @@
-const {httpCall} = require("./fetch");
-const {paymentInitDataProcess, validationDataProcess} = require("./payment-init-data-process");
+const http = require("./fetch");
+const dadaProcess = require("./payment-init-data-process");
 
 class SslCommerzPayment {
 
@@ -18,7 +18,7 @@ class SslCommerzPayment {
     init(data, url = false, method = "POST") {
         data.store_id = this.store_id;
         data.store_passwd = this.store_passwd;
-        return httpCall({url: url || this.initURL, method: method || "POST", data: paymentInitDataProcess(data)});
+        return http.httpCall({url: url || this.initURL, method: method || "POST", data: dadaProcess.paymentInitDataProcess(data)});
     }
 
     validate(data, url = false, method = "GET") {

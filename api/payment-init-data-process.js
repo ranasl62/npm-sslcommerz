@@ -89,7 +89,3 @@ export const paymentInitDataProcess = (data) => {
 
     return fdata;
 }
-
-export const validationDataProcess = (data) => {
-
-}
