@@ -1,4 +1,5 @@
-const FormData = require('form-data');
+import FormData from 'form-data';
+
 export const paymentInitDataProcess = (data) => {
     let postData = {};
     /*  Integration Required Parameters */
