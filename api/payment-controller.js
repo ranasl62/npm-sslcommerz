@@ -15,7 +15,7 @@ class SslCommerzPayment {
         this.store_passwd = store_passwd;
     }
     loadEasyCheckout = loadEasyCheckout;
-    
+
     init(data, url = false, method = "POST") {
         data.store_id = this.store_id;
         data.store_passwd = this.store_passwd;
