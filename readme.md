@@ -13,8 +13,7 @@ To call the `SSLCommerzPayment` class, just pass the required parameters as like
 
 ##### demo:
 
-this the mail class new SSLCommerzPayment(store_id, store_passwd,is_live) you can access all property of this file also
-can override
+this the mail class new SSLCommerzPayment(store_id, store_passwd,is_live) you can access all property of this Class and also can override
 
 ```
 const express = require('express')
