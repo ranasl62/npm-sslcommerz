@@ -1,6 +1,6 @@
-import FormData from 'form-data';
+const FormData = require('form-data');
 
-export const paymentInitDataProcess = (data) => {
+const paymentInitDataProcess = (data) => {
     let postData = {};
     /*  Integration Required Parameters */
     //required//
@@ -90,3 +90,4 @@ export const paymentInitDataProcess = (data) => {
 
     return fdata;
 }
+module.exports = paymentInitDataProcess;

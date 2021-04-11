@@ -1,5 +1,6 @@
-import {httpCall} from "./fetch";
-import {paymentInitDataProcess} from "./payment-init-data-process";
+const httpCall = require("./fetch");
+const paymentInitDataProcess = require("./payment-init-data-process");
+
 
 class SslCommerzPayment {
 
@@ -14,7 +15,6 @@ class SslCommerzPayment {
         this.store_id = store_id;
         this.store_passwd = store_passwd;
     }
-    loadEasyCheckout = loadEasyCheckout;
 
     init(data, url = false, method = "POST") {
         data.store_id = this.store_id;

@@ -1,11 +1,10 @@
 {
   "name": "sslcommerz",
-  "version": "1.5.7",
+  "version": "1.6.5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ranasl62/npm-sslcommerz.git"
@@ -20,7 +19,7 @@
   "description": "",
   "dependencies": {
     "form-data": "^2.5.0",
-    "requirejs": "^2.3.6",
+    "node-fetch": "^2.6.1",
     "tingle.js": "^0.16.0"
   }
 }

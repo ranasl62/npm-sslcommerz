@@ -1,6 +1,7 @@
-export const httpCall = ({url, method = 'POST', data = {}}) => {
+const fetch = require("node-fetch");
+const httpCall = ({url, method = 'POST', data = {}}) => {
     // Default options are marked with *
-    return fetch(this.initURL, {
+    return fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, cors, *same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
@@ -10,3 +11,4 @@ export const httpCall = ({url, method = 'POST', data = {}}) => {
         ...["POST", 'PUT', "PATCH", "UPDATE"].includes(method) && {body: data}, // body data type must match "Content-Type" header
     }).then(response => response.json()).catch(err => err);
 }
+module.exports = httpCall;
