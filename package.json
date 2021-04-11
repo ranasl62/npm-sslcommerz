@@ -1,10 +1,11 @@
 {
   "name": "sslcommerz",
-  "version": "1.5.3",
+  "version": "1.5.6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ranasl62/npm-sslcommerz.git"
