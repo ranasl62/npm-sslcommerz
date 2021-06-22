@@ -6,4 +6,4 @@ class SSLCommerzPayment extends SslCommerzPayment {
     }
 }
 
-module.exports = SslCommerzPayment;
+module.exports = SSLCommerzPayment;
