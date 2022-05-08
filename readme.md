@@ -17,7 +17,7 @@ this the mail class new SSLCommerzPayment(store_id, store_passwd,is_live) you ca
 
 ```
 const express = require('express')
-const SSLCommerzPayment = require('sslcommerz')
+const SSLCommerzPayment = require('sslcommerz').SslCommerzPayment
 const app = express()
 const port = 3030
 //sslcommerz init
